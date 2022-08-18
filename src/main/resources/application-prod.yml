@@ -3,9 +3,9 @@ spring:
   datasource:
     name: newbee-mall-datasource
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3308/newbee_mall_plus_db?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8&autoReconnect=true&useSSL=false&allowMultiQueries=true&useAffectedRows=true
+    url: jdbc:mysql://127.0.0.1:3306/newbee_mall_plus_db?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8&autoReconnect=true&useSSL=false&allowMultiQueries=true&useAffectedRows=true
     username: root
-    password: 123456
+    password: 8622205
     hikari:
       pool-name: hikariCP
       minimum-idle: 100
